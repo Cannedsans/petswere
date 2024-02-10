@@ -1,4 +1,44 @@
 body{
-    color: aliceblue;
-    background-color: #252525;
+    background-image: linear-gradient(to left,orange,purple);
+}
+
+main{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    margin: auto;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1,p {
+    text-align: center;
+}
+
+.Top{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
